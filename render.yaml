@@ -4,6 +4,6 @@ services:
   env: docker
   repo: https://github.com/kansha-io/redis.git
   disk:
-    name: data
+    name: redis
     mountPath: /var/lib/redis
     sizeGB: 1
